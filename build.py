@@ -149,13 +149,13 @@ border-radius:14px;padding:22px;transition:border-color .15s,box-shadow .15s,tra
 <body>
 <div class="bar"><div class="in">
 <a class="brand" href="index.html">{logo}<span>Haulbeam</span></a>
-<nav class="nav"><a href="privacy.html"{p_on}>Privacy</a><a href="terms.html"{t_on}>Terms</a></nav>
+<nav class="nav"><a href="privacy.html"{p_on}>Privacy</a><a href="terms.html"{t_on}>Terms</a><a href="support.html"{s_on}>Support</a></nav>
 </div></div>
 <main class="wrap">
 {body}
 </main>
 <footer>
-<span>© 2026 Haulbeam</span><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a>
+<span>© 2026 Haulbeam</span><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="support.html">Support</a>
 <a class="sp" href="mailto:support@famlok.online">support@famlok.online</a>
 </footer>
 </body>
@@ -170,6 +170,7 @@ def build_doc(md_name, out_name, title, desc, active):
         title=title, desc=desc, logo=LOGO, body=body,
         p_on=' class="on"' if active == "privacy" else "",
         t_on=' class="on"' if active == "terms" else "",
+        s_on=' class="on"' if active == "support" else "",
     )
     (ROOT / out_name).write_text(html_out, encoding="utf-8")
     print(f"  wrote {out_name}  ({len(html_out):,} bytes)")
@@ -180,6 +181,7 @@ INDEX_BODY = """<h1>Haulbeam — Legal</h1>
 <div class="cards">
 <a class="card" href="privacy.html"><h3>Privacy Policy</h3><p>What we collect, how it's used, who we share it with, and how to access or delete your data.</p><div class="go">Read the Privacy Policy →</div></a>
 <a class="card" href="terms.html"><h3>Terms of Use</h3><p>The agreement for using Haulbeam, including the safety disclaimer and subscription terms.</p><div class="go">Read the Terms of Use →</div></a>
+<a class="card" href="support.html"><h3>Support</h3><p>Contact us, answers to common questions, and how to manage or delete your data.</p><div class="go">Get support →</div></a>
 </div>
 <hr>
 <p style="font-size:13.5px;color:#6b7280;">Questions? Contact <a href="mailto:support@famlok.online">support@famlok.online</a>.</p>"""
@@ -191,8 +193,10 @@ def main():
               "How Haulbeam collects, uses, stores and shares your information.", "privacy")
     build_doc("TERMS.md", "terms.html", "Terms of Use",
               "The terms that apply when you use the Haulbeam app.", "terms")
+    build_doc("SUPPORT.md", "support.html", "Support",
+              "Get help with Haulbeam — contact, FAQ, billing and account deletion.", "support")
     idx = PAGE.format(title="Legal", desc="Haulbeam privacy policy and terms of use.",
-                      logo=LOGO, body=INDEX_BODY, p_on="", t_on="")
+                      logo=LOGO, body=INDEX_BODY, p_on="", t_on="", s_on="")
     (ROOT / "index.html").write_text(idx, encoding="utf-8")
     print("  wrote index.html")
     print("Done.")
