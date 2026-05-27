@@ -80,16 +80,8 @@ def render_body(md: str) -> str:
     return "\n".join(out)
 
 
-LOGO = (
-    '<svg class="mark" width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">'
-    '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">'
-    '<stop offset="0" stop-color="#ff9a3d"/><stop offset="1" stop-color="#ef3e2a"/>'
-    '</linearGradient></defs>'
-    '<rect width="32" height="32" rx="8" fill="url(#g)"/>'
-    '<path d="M9 23 L15 9 a1.6 1.6 0 0 1 2.9 0 L24 23" fill="none" stroke="#fff" '
-    'stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>'
-    '<circle cx="16" cy="23" r="2.1" fill="#fff"/></svg>'
-)
+# Real Haulbeam app icon (generated from AppIcon-1024.png via sips → logo.png).
+LOGO = '<img class="mark" src="logo.png" width="30" height="30" alt="Haulbeam logo">'
 
 PAGE = """<!DOCTYPE html>
 <html lang="en">
@@ -99,6 +91,9 @@ PAGE = """<!DOCTYPE html>
 <title>{title} · Haulbeam</title>
 <meta name="description" content="{desc}">
 <meta name="robots" content="index, follow">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
 :root{{--ink:#16181d;--muted:#6b7280;--line:#ececf0;--bg:#fff;--page:#f4f5f7;--a:#ee4a27;}}
 *{{box-sizing:border-box;}}
