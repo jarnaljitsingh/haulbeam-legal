@@ -6,7 +6,7 @@
 These Terms of Use ("Terms") are a legal agreement between you and **Haulbeam** ("Haulbeam", "we", "us", "our") governing your use of the Haulbeam iOS app (the "App"). Haulbeam is a truck-navigation app for use in Australia.
 
 > **Provider:** Haulbeam, operated by an individual sole operator based in California, United States.
-> **Contact:** support@famlok.online
+> **Contact:** support@jarnaljitsingh.com
 
 **By downloading or using the App, you agree to these Terms and to our Privacy Policy.** If you do not agree, do not use the App.
 
@@ -126,7 +126,7 @@ We may update these Terms from time to time. We'll update the "Last updated" dat
 ## 14. Contact us
 
 **Haulbeam** — operated by a sole operator based in California, USA.
-Support & legal enquiries: support@famlok.online
+Support & legal enquiries: support@jarnaljitsingh.com
 
 ---
 

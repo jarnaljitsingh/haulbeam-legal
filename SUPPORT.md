@@ -1,8 +1,8 @@
 # Haulbeam — Support
 
-**Need help with Haulbeam?** Email **support@famlok.online** and we'll get back to you as soon as we can. Haulbeam is truck-safe navigation for Australia — the answers below cover the most common questions.
+**Need help with Haulbeam?** Email **support@jarnaljitsingh.com** and we'll get back to you as soon as we can. Haulbeam is truck-safe navigation for Australia — the answers below cover the most common questions.
 
-> **Contact:** support@famlok.online — please include your device model, iOS version, and a short description of the issue.
+> **Contact:** support@jarnaljitsingh.com — please include your device model, iOS version, and a short description of the issue.
 
 ---
 

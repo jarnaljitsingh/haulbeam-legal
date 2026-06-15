@@ -2,8 +2,8 @@
 
 Public Privacy Policy and Terms of Use for the **Haulbeam** iOS app (Australian truck navigation), hosted with GitHub Pages.
 
-- **Privacy Policy:** [privacy.html](https://jarnaljitsingh.github.io/haulbeam-legal/privacy.html)
-- **Terms of Use:** [terms.html](https://jarnaljitsingh.github.io/haulbeam-legal/terms.html)
+- **Privacy Policy:** [privacy.html](https://haulbeam.jarnaljitsingh.com/privacy.html)
+- **Terms of Use:** [terms.html](https://haulbeam.jarnaljitsingh.com/terms.html)
 
 ## Editing
 
@@ -15,4 +15,4 @@ python3 build.py
 
 This produces `privacy.html`, `terms.html`, and `index.html` (self-contained, no dependencies). Commit and push — GitHub Pages redeploys automatically.
 
-Contact: support@famlok.online
+Contact: support@jarnaljitsingh.com

@@ -6,7 +6,7 @@
 This Privacy Policy explains how **Haulbeam** ("Haulbeam", "we", "us", "our") collects, uses, stores, shares and protects your personal information when you use the Haulbeam iOS app (the "App"). Haulbeam is a truck-navigation app for use in Australia. We handle personal information in line with the **Privacy Act 1988 (Cth)** and the **Australian Privacy Principles (APPs)**.
 
 > **Provider:** Haulbeam, operated by an individual sole operator based in California, United States.
-> **Contact:** support@famlok.online
+> **Contact:** support@jarnaljitsingh.com
 
 By using the App, you agree to this Privacy Policy. If you do not agree, please do not use the App.
 
@@ -115,7 +115,7 @@ Under the Australian Privacy Principles you may:
 - **withdraw permissions** at any time in iOS **Settings** (location, microphone, speech, notifications) — note that some features won't work without them;
 - **complain** if you believe we've mishandled your information.
 
-To make a request or complaint, contact us at **support@famlok.online**. We'll respond within a reasonable time. If you're not satisfied, you may contact the **Office of the Australian Information Commissioner (OAIC)** at [oaic.gov.au](https://www.oaic.gov.au).
+To make a request or complaint, contact us at **support@jarnaljitsingh.com**. We'll respond within a reasonable time. If you're not satisfied, you may contact the **Office of the Australian Information Commissioner (OAIC)** at [oaic.gov.au](https://www.oaic.gov.au).
 
 ---
 
@@ -140,7 +140,7 @@ We may update this Privacy Policy from time to time. We'll change the "Last upda
 ## 11. Contact us
 
 **Haulbeam** — operated by a sole operator based in California, USA.
-Privacy enquiries: support@famlok.online
+Privacy enquiries: support@jarnaljitsingh.com
 
 ---
 
